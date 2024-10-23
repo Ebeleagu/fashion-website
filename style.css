@@ -1,0 +1,405 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  align-items: center;
+  padding: 0% 100px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.headerIcons {
+  display: flex;
+  gap: 30px;
+}
+
+/* ......................................Hero Section................................  */
+
+main {
+  display: flex;
+  background-color: whitesmoke;
+  height: 85vh;
+}
+
+.heroBg {
+  /* background-image: url("./images/landing.png");
+  background-size: cover;
+  background-position: center; */
+  width: 50%;
+}
+
+.heroBg img {
+  height: 100%;
+  width: 100%;
+}
+
+.heroText {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.heroText h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.heroText span {
+  font-size: 20px;
+}
+
+.heroText button {
+  background-color: rgb(20, 19, 19);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+/******************************discover**************************************/
+
+.dis {
+  padding: 50px;
+}
+
+.dis .header {
+  border-left: 3px solid red;
+  font-weight: bold;
+  margin: 50px 0px;
+  font-family: monospace;
+  font-size: 20px;
+  margin-left: 10%;
+}
+
+.discover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  height: 90vh;
+  width: 70vw;
+  padding-left: 13%;
+}
+
+.discover .cover {
+  background: url(../../images/woman.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: whitesmoke;
+  height: 90vh;
+  width: 50vw;
+}
+
+.core {
+  background: url(../../images/man.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: whitesmoke;
+  height: 43vh;
+  width: 25vw;
+}
+
+.ore {
+  background: url(../../images/shoes.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: whitesmoke;
+  height: 44vh;
+  width: 25vw;
+}
+
+.rover {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/*****************************************************************/
+.products {
+  padding: 10px;
+}
+
+.products h1 {
+  border-left: 3px solid red;
+  font-weight: bold;
+  margin: 50px 0px;
+  font-family: monospace;
+  font-size: 30px;
+  margin-left: 10%;
+}
+
+.polar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.polar .pop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-left: 14%;
+}
+
+.pop .prod {
+  height: 50vh;
+  width: 23vw;
+  background-color: whitesmoke;
+}
+
+.products h2 {
+  opacity: 0.5;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.pop p {
+  display: inline;
+}
+
+/****************************************************************/
+.prat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.prat .at {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-left: 14%;
+  padding-top: 5px;
+}
+
+.prat img {
+  height: 50vh;
+  width: 23vw;
+}
+
+.prat .rat {
+  background-color: whitesmoke;
+}
+
+figcaption i {
+  color: #ffc512;
+}
+
+/****************************************************************************/
+.rated {
+  padding: 5%;
+}
+
+.rated h1 {
+  border-bottom: 3px solid red;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 30px;
+  margin-left: 10%;
+  width: 10vw;
+  text-align: center;
+}
+
+.most {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.most .tom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-left: 11%;
+  padding-top: 3%;
+}
+
+.tom .date {
+  height: 50vh;
+  width: 23vw;
+  background-color: whitesmoke;
+}
+
+/**************************************************************************************************/
+
+.summer .rum {
+  background: url(../../images/shoes.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: whitesmoke;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position-x: 16%;
+}
+
+.rum h1 {
+  font-family: monospace;
+  text-align: center;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.rum h2 {
+  font-family: times new roman;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bolder;
+  line-height: 20px;
+}
+.rum button {
+  background-color: #343a40;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 20px 30px;
+  font-weight: 600;
+}
+
+.rum {
+  padding-left: 50%;
+  gap: 50px;
+}
+
+/********************************************************************/
+.last {
+  padding: 8%;
+  display: flex;
+  gap: 10%;
+}
+
+.last h1 {
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bolder;
+  display: flex;
+}
+
+.task img {
+  width: 18vw;
+  height: 22vh;
+  border-radius: 10px;
+}
+
+.last p {
+  color: #de5e76;
+  font-family: monospace;
+  font-size: 20px;
+  flex-wrap: nowrap;
+}
+
+figcaption s {
+  text-decoration: none;
+  opacity: 0.5;
+  font-family: monospace;
+}
+
+.last .foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.last nav {
+  font-size: 15px;
+  font-family: monospace;
+}
+
+.last .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.last h2 {
+  font-size: 25px;
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+.left i {
+  color: red;
+}
+
+.left a {
+  color: black;
+  font-size: 15px;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+.left h3 {
+  font-size: 25px;
+  font-family: monospace;
+  font-weight: bolder;
+  line-height: 30px;
+}
+
+.last .sub {
+  margin-top: 15%;
+}
+
+.sub h4 {
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.sub button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+
+input {
+  width: max-content;
+  height: 25px;
+}
+
+/*******************************************************************************************/
+
+.footer p {
+  text-align: center;
+  font-family: monospace;
+  font-weight: lighter;
+  font-size: 20px;
+  padding: 10px;
+  opacity: 0.6;
+}
